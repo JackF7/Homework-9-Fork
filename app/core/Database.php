@@ -11,13 +11,13 @@ trait Database
     {
         $type = 'mysql';
         $server = 'localhost';
-        $db = 'university';
-        $port = '8889';
+        $db = 'homework_9';
+        $port = '8888';
         $charset = 'utf8mb4';
 
         //the mamp default values here
-        $username = 'root';
-        $password = 'root';
+        $username = '';
+        $password = '';
 
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

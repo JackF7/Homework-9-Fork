@@ -1,7 +1,7 @@
 <?php
 
-define('DBNAME', $env['DBNAME']);
-define('DBHOST', $env['DBHOST']);
-define('DBUSER', $env['DBUSER']);
-define('DBPASS', $env['DBPASS']);
-define('DBDRIVER', '');
+define('DBNAME', getenv('DBNAME'));
+define('DBHOST', getenv('DBHOST'));
+define('DBUSER', getenv('DBUSER'));
+define('DBPASS', getenv('DBPASS'));
+define('DBDRIVER', getenv('DBDRIVER'));

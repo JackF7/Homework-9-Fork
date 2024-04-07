@@ -1,0 +1,12 @@
+1). Structured query language (SQL) is a standard language for database creation and manipulation. 
+SQL communicates with databases using queries to update data. 
+A relation database is a type of database that organizes data into tables with rows and columns. 
+It is called relational because it allows us to identify and access data in relation to other data in the database. 
+They also include fields, which are pieces of information from a row, and keys, which uniquely identify each row. 
+MySQL, which we are using in our class, is a relational database program.
+
+4). A PDO is a PHP Data Object, which is a PHP framework/extension that provides an interface to access and interact with databases.
+PDOs can use prepared statements, which are pre-compiled (by the database) SQL statements. 
+They use placeholder values to separate the code from the data,which protects from hackers injecting malicious SQL code into queries.
+Prepared statements are also efficient and easily readable.
+

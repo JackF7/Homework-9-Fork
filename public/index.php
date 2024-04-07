@@ -65,7 +65,3 @@ if ($uriArray[1] === 'posts-delete-view' && $_SERVER['REQUEST_METHOD'] === 'GET'
 }
 
 include '../public/assets/views/notFound.html';
-
-?>
-
-
